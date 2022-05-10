@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+   background-color: #035872;
+}
+h1{
+     color: #ffffff;
+    text-align: center;
+    margin-top: 200px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+span{
+    color: rgb(0, 238, 255);
+}
+
+.container{
+    max-width: 1120px;
+    width: 100%;
+    margin: 200px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 500px;
+    height: 200px;
+    background: orange;
+    margin: 15px;
+    border-radius: 15px;
+}
